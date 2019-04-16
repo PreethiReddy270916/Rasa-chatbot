@@ -1,4 +1,4 @@
-## Story 01
+## Sample story
 
 * greet
 	-utter_greet

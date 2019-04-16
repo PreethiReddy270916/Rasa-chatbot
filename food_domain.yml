@@ -27,7 +27,7 @@ templates:
   
   utter_bland_reply:
     - 'I am good! Thanks'
-    - 'I am great!How are you?'
+    - 'I am great!'
     - 'Doing good! Thanks'
 
 actions:

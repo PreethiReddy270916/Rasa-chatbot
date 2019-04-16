@@ -16,8 +16,7 @@ from rasa_core.interpreter import RasaNLUInterpreter#to parse incoming messages 
 
 def train_dialogue(domain_file='food_domain.yml',model_path='./models/dialogue',training_data_file='./data/stories.md'):
 	agent=Agent(domain_file, policies= [MemoizationPolicy(),KerasPolicy()])
-	agent.train(
-		training_data_file,max_history=3,epochs=86,batch_size=10,validation_split=0.5,augmentation_factor=50)
+	agent.train(training_data_file,max_history=3,epochs=86,batch_size=10,validation_split=0.5,augmentation_factor=50)
 	agent.persist(model_path)
 	return agent
 
