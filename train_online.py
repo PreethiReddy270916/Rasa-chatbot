@@ -13,7 +13,7 @@ from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.interpreter import RasaNLUInterpreter#to parse incoming messages and extract info
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 
 def run_weather_online(input_channel, interpreter,

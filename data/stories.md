@@ -1,4 +1,4 @@
-## Sample story
+## Sample story1
 
 * greet
 	-utter_greet
@@ -11,7 +11,7 @@
 * goodbye
 	-utter_goodbye
 
-## Generated Story 1325988255359035558
+## Generated Story 1325988255359035521
 * greet
     - utter_greet
 * order_food
