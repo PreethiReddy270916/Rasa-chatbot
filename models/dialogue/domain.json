@@ -1,0 +1,19 @@
+{
+  "features": [
+    "intent_greet", 
+    "intent_bland_greeting", 
+    "intent_order_food", 
+    "intent_show_menu", 
+    "intent_goodbye", 
+    "entity_food_item", 
+    "slot_food_item_0", 
+    "prev_action_listen", 
+    "prev_action_restart", 
+    "prev_utter_greet", 
+    "prev_utter_goodbye", 
+    "prev_utter_bland_reply", 
+    "prev_utter_ask_food_item", 
+    "prev_action_show_food", 
+    "prev_action_order_food"
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+       {
+        "text": "hiii",
+        "intent": "greet",
+        "entities": []
+      }, {
+        "text": "heya",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "got to go",
+        "intent": "goodbye",
+        "entities": []
+      },
+	    {
+        "text": "i want to see menu card",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "show me the menu",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "show menu",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "menu card",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "show me the menu card",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "show me food items available",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "show me what you have",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "menu card",
+        "intent": "show_menu",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "I want food",
+        "intent": "order_food",
+        "entities": []
+      },
+      {
+        "text": "I am hungry",
+        "intent": "order_food",
+        "entities": []
+      },
+      {
+        "text": "I like food",
+        "intent": "order_food",
+        "entities": []
+      },
+      {
+        "text": "Get me food",
+        "intent": "order_food",
+        "entities": []
+      },
+      {
+        "text": "i want to eat something",
+        "intent": "order_food",
+        "entities": []
+      },
+      {
+        "text": "are you okay?",
+        "intent": "bland_greeting",
+        "entities": []
+      },{
+        "text": "how is business going",
+        "intent": "bland_greeting",
+        "entities": []
+      },{
+        "text": "How is life",
+        "intent": "bland_greeting",
+        "entities": []
+      },
+      {
+        "text": "How are you",
+        "intent": "bland_greeting",
+        "entities": []
+      },
+      {
+        "text": "how are you doing",
+        "intent": "bland_greeting",
+        "entities": []
+      },
+      {
+        "text": "howyadoing",
+        "intent": "bland_greeting",
+        "entities": []
+      },
+      {
+        "text": "I would like to get pizza",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 20,
+            "end": 25,
+            "value": "pizza",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "I want to eat a burger",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 16,
+            "end": 22,
+            "value": "burger",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "order biriyani",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 6,
+            "end": 14,
+            "value": "biriyani",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "order burger",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 6,
+            "end": 12,
+            "value": "burger",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "get me milkshake",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "milkshake",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i want burger",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "burger",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i want omlette",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 7,
+            "end": 14,
+            "value": "omlette",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i want biriyani",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "biriyani",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "Pizza",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Pizza",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "Burger",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Burger",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "order Pizza",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 6,
+            "end": 11,
+            "value": "Pizza",
+            "entity": "food_item"
+          }
+        ]
+      },{
+        "text": "biriyani",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "biriyani",
+            "entity": "food_item"
+          }
+        ]
+      },{
+        "text": "Donuts",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Donuts",
+            "entity": "food_item"
+          }
+        ]
+      },{
+        "text": "Icecream",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Icecream",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "Noodles",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "noodles",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i would like to have a chicken thupka",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "chicken thupka",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i want to order a donut",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 18,
+            "end": 23,
+            "value": "donut",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "I am hungry and would like to have a pizza",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "pizza",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "I am hungry and would like to have cheese balls",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "cheese balls",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "I am tireed and would like to have cheese balls",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 37,
+            "end": 49,
+            "value": "cheese balls",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i am tired and want to eat a burger",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 29,
+            "end": 35,
+            "value": "burger",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "give me choco truffle",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 8,
+            "end": 21,
+            "value": "choco truffle",
+            "entity": "food_item"
+          }
+        ]
+      },
+      {
+        "text": "i want to order chicken noodles",
+        "intent": "order_food",
+        "entities": [
+          {
+            "start": 16,
+            "end": 31,
+            "value": "chicken noodles",
+            "entity": "food_item"
+          }
+        ]
+      }
+            
+    ]
+  }
+}

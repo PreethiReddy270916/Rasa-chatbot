@@ -1,0 +1,44 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_bland_reply
+- utter_ask_food_item
+- action_show_food
+- action_order_food
+actions:
+- utter_greet
+- utter_goodbye
+- utter_bland_reply
+- utter_ask_food_item
+- actions.ActionShowFood
+- actions.ActionOrderFood
+config:
+  store_entities_as_slots: true
+entities:
+- food_item
+intents:
+- greet
+- bland_greeting
+- order_food
+- show_menu
+- goodbye
+slots:
+  food_item:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_food_item:
+  - text: What would you like to eat?
+  - text: What can i get for you?
+  utter_bland_reply:
+  - text: I am good! Thanks
+  - text: I am great!How are you?
+  - text: Doing good! Thanks
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can i help you?
+  - text: May I help you?
+topics: []

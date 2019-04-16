@@ -1,0 +1,39 @@
+slots:
+  food_item:
+    type: text
+
+
+intents:
+ - greet
+ - bland_greeting
+ - order_food
+ - show_menu
+ - goodbye
+
+
+entities:
+ - food_item
+
+templates:
+  utter_greet:
+    - 'Hello! How can i help you?'
+    - 'May I help you?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_ask_food_item:
+    - 'What would you like to eat?'
+    - 'What can i get for you?'
+  
+  utter_bland_reply:
+    - 'I am good! Thanks'
+    - 'I am great!How are you?'
+    - 'Doing good! Thanks'
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_bland_reply
+ - utter_ask_food_item
+ - actions.ActionShowFood
+ - actions.ActionOrderFood
