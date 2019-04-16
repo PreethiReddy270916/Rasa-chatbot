@@ -1,4 +1,4 @@
-#coversation with the chatbot
+#coversation with the chatbot to create more stories by rectifying the mistakes made by the bot
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -37,4 +37,3 @@ if __name__ == '__main__':
     #logging.basicConfig(level="INFO")
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/foodnlu')
     run_weather_online(ConsoleInputChannel(), nlu_interpreter)
-    
