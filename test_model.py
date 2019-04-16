@@ -1,4 +1,4 @@
-#Chatbot could be tested through the console
+#Chatbot is to be tested through the console 
 from rasa_core.channels.console import ConsoleInputChannel
 from rasa_core.agent import Agent
 from rasa_core.interpreter import RasaNLUInterpreter
