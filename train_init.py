@@ -1,4 +1,4 @@
-#creates model/dialogue file useful for online training
+#creates model/dialogue file with fake stories useful for online training 
 
 from __future__ import absolute_import 
 from __future__ import division

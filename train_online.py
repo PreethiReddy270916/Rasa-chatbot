@@ -37,3 +37,4 @@ if __name__ == '__main__':
     #logging.basicConfig(level="INFO")
     nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/foodnlu')
     run_weather_online(ConsoleInputChannel(), nlu_interpreter)
+    
