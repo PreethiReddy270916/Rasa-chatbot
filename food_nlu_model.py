@@ -15,7 +15,7 @@ def run_nlu():
 	print(interpreter.parse(u"i would like to have a fish"))
 
 
-train_nlu('./data/training_data.json','config_spacy.json','./models/nlu')
+#train_nlu('./data/training_data.json','config_spacy.json','./models/nlu')
 
 run_nlu()
 
