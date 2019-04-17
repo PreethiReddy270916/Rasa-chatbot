@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-import logging
+#import logging
 
 from builtins import str
 from flask import Blueprint, request, jsonify
@@ -11,7 +11,7 @@ from flask import Blueprint, request, jsonify
 from rasa_core.channels.channel import UserMessage, OutputChannel
 from rasa_core.channels.rest import HttpInputComponent
 
-logger = logging.getLogger(__name__)
+#logger = logging.getLogger(__name__)
 
 
 class SlackBot(OutputChannel):
